@@ -6,7 +6,7 @@ public class CreditCard31{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a credit card number as a long integer: ");
-        long number = scanner.nextLong();
+        long number = scanner.nextLong(); 
         
         if (isValid(number)) {
             System.out.println(number + " is valid");
@@ -29,6 +29,7 @@ public class CreditCard31{
         }
         return sum;
     }
+
 
     /** Return this number if it is a single digit, otherwise,
      * return the sum of the two digits */
